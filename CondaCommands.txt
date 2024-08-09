@@ -1,0 +1,19 @@
+conda info --envs
+
+# conda environments:
+#
+base                  *  /Users/apple/anaconda3
+aienv                    /Users/apple/anaconda3/envs/aienv
+genaitut                 /Users/apple/anaconda3/envs/genaitut
+
+conda env list
+
+# conda environments:
+#
+base                  *  /Users/apple/anaconda3
+aienv                    /Users/apple/anaconda3/envs/aienv
+genaitut                 /Users/apple/anaconda3/envs/genaitut
+
+conda remove --name myenv --all
+
+# Remove all packages in environment /Users/apple/anaconda3/envs/aienv:
